@@ -16,7 +16,6 @@ app.use(cors());
 app.use('/posts', postRoutes);
 app.use('/user', userRoutes);
 
-//const CONNECTION_URL = 'mongodb+srv://fiyin:Security123@cluster0.n9ron.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const CONNECTION_URL = 'mongodb+srv://fiyin:Password@nodeexpressprojects.muqo2.mongodb.net/mern_stack_memory_project?retryWrites=true&w=majority'
 const PORT = process.env.PORT|| 5000;
 
